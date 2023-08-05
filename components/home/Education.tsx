@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Education() {
   return (
-    <div className="flex flex-col  max-w-md md:max-w-full w-full m-auto pt-[320px] pb-[80px]">
+    <div className="flex flex-col  max-w-md md:max-w-full w-full m-auto md:pt-[300px] pb-[80px]">
       <SectionTitle title="Education" />
       <div className="max-w-5xl m-auto md:max-h-[200px] grid grid-cols-1 gap-10 md:gap-10 md:grid-cols-2 items-start">
         {testimonials.map((item, index) => {
