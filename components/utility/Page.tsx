@@ -40,15 +40,6 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="title" content={pageTitle} />
         <meta name="description" content={desc} />
 
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://anirudhk33.vercel.app/" />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={desc} />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://anirudhk33.vercel.app/" />
-        <meta property="twitter:title" content={pageTitle} />
-        <meta property="twitter:description" content={desc} />
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
