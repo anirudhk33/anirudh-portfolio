@@ -11,7 +11,7 @@ export default function Home() {
     <Page
       currentPage="Home"
       meta={{
-        desc: "I'm a passionate web developer and designer coding beautiful websites and apps.",
+        desc: "",
       }}
     >
       <Hero />
