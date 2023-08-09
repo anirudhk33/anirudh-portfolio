@@ -6,12 +6,7 @@ import React from "react";
 
 function resume() {
   return (
-    <Page
-      currentPage="Resume"
-      meta={{
-        desc: "",
-      }}
-    >
+    <Page currentPage="Resume">
       <Heading />
     </Page>
   );
