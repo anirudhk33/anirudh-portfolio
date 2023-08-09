@@ -8,12 +8,7 @@ import Experience from "@/components/home/Experiences";
 
 export default function Home() {
   return (
-    <Page
-      currentPage="Home"
-      meta={{
-        desc: "",
-      }}
-    >
+    <Page currentPage="Home">
       <Hero />
       <div className=" space-y-32">
         <Projects />
