@@ -18,7 +18,7 @@ function Page({ currentPage, meta: { title, desc }, children }) {
       <Head>
         <title>{pageTitle}</title>
 
-        <link
+        {/* <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/static/favicon/apple-touch-icon.png"
@@ -35,7 +35,7 @@ function Page({ currentPage, meta: { title, desc }, children }) {
           sizes="16x16"
           href="/static/favicon/favicon-16x16.png"
         />
-        <link rel="manifest" href="/static/favicon/site.webmanifest" />
+        <link rel="manifest" href="/static/favicon/site.webmanifest" /> */}
         <meta name="title" content={pageTitle} />
         <meta name="description" content={desc} />
       </Head>
